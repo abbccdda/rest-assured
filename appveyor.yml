@@ -1,7 +1,5 @@
 install:
-  - mvn install --quiet -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - mvn clean install -B
 
-test_script:
-  - mvn test 
 
 build: off
